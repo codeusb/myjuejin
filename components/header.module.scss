@@ -1,0 +1,38 @@
+.header{
+  background-color: var(--background-color);
+  width: 100vw;
+  height: 3.5rem;
+  border-bottom:1px solid var(--side-color) ;
+  .headernav{
+    width: 1440px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    margin-left: 13.5rem;
+    .headericon{
+      margin-top: 8px;
+      .headericontext{
+        display: inline-block;
+        color: var(--font-color);
+        width: 70px;
+        position: relative;
+        bottom: 7px;
+        margin-left: 0.5rem;
+        font-size: 15px;
+        font-weight: 500;
+      }
+    }
+    .navUl{
+      .navitem{
+        margin: 0px 0.8rem;
+        font-size: 13px;
+        font-weight: 400;
+        color: #636672;
+        cursor: pointer;
+      }
+      .navitem1{
+        color: #1e80ff;
+      }
+    }
+  }
+}

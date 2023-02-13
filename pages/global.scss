@@ -1,0 +1,59 @@
+@mixin themelight{
+  --background-color: #ffffff;
+  --background-main-color:#f4f5f5;
+  --font-color: #1d2129;
+  --cs-color: green;
+}
+@mixin themedark {
+  --background-color: #000000;
+  --background-main-color:#1d2129;
+  --font-color: #ffffff;
+  --cs-color: red;
+}
+
+:root{
+  --side-color: #f2f2f2;
+  --navfont-color: #71777c;
+  --choice-color: #1e80ff;
+  --background-main-color: #f4f5f5;
+
+  @include themelight;
+  // dark theme (CSS)
+  @media (prefers-color-scheme: dark) {
+    @include themedark;
+  }
+}
+
+// colors: user set
+body.light {
+  @include themelight;
+}
+
+body.dark {
+  @include themedark;
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,body{
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: var(--background-main-color);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+li{
+  display: inline-block;
+}

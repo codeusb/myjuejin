@@ -1,0 +1,20 @@
+.navBox{//首页上边第二个导航栏
+  // width: 100vh;
+  height: 2.7rem;
+  background-color: var(--background-color);
+  border-bottom:1px solid var(--side-color) ;
+  .navUl{
+    margin-left: 23.5rem;
+    width: 676px; 
+    .navItem{
+      margin: 0.8rem 0.7rem 0rem;
+      font-size: 12px;
+      font-weight: 400;
+      color: #71777c;
+      cursor: pointer;
+    }
+    .navItem11{
+      color: #1e80ff;
+    }
+  }
+}

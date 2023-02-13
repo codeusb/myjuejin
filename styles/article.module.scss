@@ -1,0 +1,40 @@
+.mainbox{  //首页大盒子
+  max-width: 960px;
+  // border: 1px solid pink;
+  margin: 0 auto;
+  .authorbox{
+    width: 240px;
+    height: 5rem;
+    background-color: var(--background-color); 
+    padding-left: 2rem;
+    border: 1px solid #f2f2f2;
+    color: var(--font-color);
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    justify-content: center;
+  }
+}
+
+.headingArticle{ //文章盒子
+  margin-top: 0.6rem;
+  width: 676px;
+  padding: 2rem;
+  background-color: var(--background-color);
+  color: var(--font-color);
+  .headingXl { //文章标题
+    font-size: 1.6rem;
+    line-height: 1.3;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    margin: 1rem 0;
+  }
+  .lightText {
+    color: #86909c;
+    font-size: 12px;
+    line-height: 22px;
+  }
+  
+}
+

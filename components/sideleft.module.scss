@@ -1,0 +1,21 @@
+.box{
+  // margin-top: 0.6rem;
+  width: 240px;
+  float: right;
+  margin-right: 1.2rem;
+  // border: 1px solid purple;
+  .mar{
+    height: 3.8rem;
+    background-color: var(--background-color);
+    .marp{
+      color: #fff;
+      display: inline-block;
+      margin-top: 1.2rem;
+      margin-left: 5rem;
+    }
+  }
+  .sideleft{
+    background-color: var(--background-color);
+  }
+}
+

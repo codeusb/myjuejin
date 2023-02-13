@@ -1,0 +1,95 @@
+.mainbox{  //首页大盒子
+  max-width: 960px;
+  // border: 1px solid pink;
+  margin: 0 auto;
+  .headingMd {  //首页内容盒子
+    font-size: 1.2rem;
+    line-height: 1.5;
+    width: 676px;
+    // border: 1px solid green;
+    background-color: var(--background-color);
+    .list {  //首页文章列表
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      .listItem {  //首页文章列表子项
+        margin-top: 1.2rem;
+        padding: 12px 20px 15px 20px;
+        
+        /* background-color: aqua; */
+        border-top: 1px solid #f2f2f2;
+        border-bottom: 1px solid #f2f2f2;
+        width: 676px;
+        height: 121px;
+        box-sizing: border-box;
+        .listTitle{
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 24px;
+          color: var(--font-color);
+        }
+        .listAuthor{
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 24px;
+          color: var(--font-color);
+        }
+        .lightText {
+          color: #86909c;
+          font-size: 12px;
+          line-height: 22px;
+        }
+      }
+    }
+  }
+}
+
+.navBox2{//首页内容主题上部的导航栏
+  width: 676px;
+  height: 2.7rem;
+  background-color: var(--background-color);
+  border-bottom:1px solid var(--side-color) ;
+  margin-top: 0.6rem;
+  .navBox2Ul{
+    width: 300px;   
+    .navItem2{
+      padding: 0px 1.2rem;
+      font-size: 12px;
+      font-weight: 400;
+      color: #71777c;
+      border-right: 1px solid #71777c;
+      cursor: pointer;
+    }
+    .navItem21{
+      margin-top: 0.9rem;
+      margin-left: 0.95rem;
+      color: #1e80ff;
+    }
+  }
+}
+
+.borderCircle {
+  border-radius: 9999px;
+}
+
+.colorInherit {
+  color: inherit;
+}
+
+.padding1px {
+  padding-top: 1px;
+}
+
+// .heading2Xl {
+//   font-size: 2.5rem;
+//   line-height: 1.2;
+//   font-weight: 800;
+//   letter-spacing: -0.05rem;
+//   margin: 1rem 0;
+//   color: aqua;
+// }
+// .headingLg {
+//   font-size: 1.5rem;
+//   line-height: 1.4;
+//   margin: 1rem 0;
+// }
