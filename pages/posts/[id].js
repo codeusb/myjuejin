@@ -6,8 +6,6 @@ import TextSide from '../../components/textside'
 import articleStyles from '../../styles/article.module.scss'
 
 export default function Post({ postData }) {
-  // const router = useRouter();
-  // const { id } = router.query;
   return (
     <Layout>
       <Head>
