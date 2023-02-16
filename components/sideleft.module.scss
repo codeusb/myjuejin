@@ -1,8 +1,11 @@
 .box{
   // margin-top: 0.6rem;
   width: 240px;
-  float: right;
+  // float: right;
   margin-right: 1.2rem;
+  position: absolute;
+  top: 0;
+  right: 0;
   // border: 1px solid purple;
   .mar{
     height: 3.8rem;

@@ -1,7 +1,7 @@
 ---
 title: '理解JavaScript（下） | 青训营笔记'
 date: '2023-02-09'
-author: 'sexxion3'
+author: 'Sexxion3'
 ---
 
 # 一、前言

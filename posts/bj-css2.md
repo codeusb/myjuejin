@@ -1,7 +1,7 @@
 ---
 title: '理解CSS（中） | 青训营笔记'
 date: '2023-02-03'
-author: 'sexxion2'
+author: 'Sexxion2'
 ---
 
 # 一、CSS是什么

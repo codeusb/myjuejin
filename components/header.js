@@ -2,6 +2,7 @@ import Link from 'next/link';
 import styles from "./header.module.scss";
 import Themetoggle from './themetoggle';
 
+//一级导航栏
 export default function Header() {
   return(
     <header className={styles.header}>
@@ -39,7 +40,6 @@ export default function Header() {
         </ul>
         <Themetoggle />
       </div>
-      
     </header>
   )
 }

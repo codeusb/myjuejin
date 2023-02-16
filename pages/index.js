@@ -33,7 +33,7 @@ export default function Home({allPostsData}) {
                     <Link href={`/posts/${id}`}>
                       <p className={utilStyles.listAuthor}>{author}</p>
                       <p className={utilStyles.listTitle}>{title}</p>
-                      <br />
+                      <p className={utilStyles.listAbstract}>文章内容摘要. . .</p>
                       <small className={utilStyles.lightText}>
                         <Date dateString={date} />
                       </small>
@@ -42,9 +42,8 @@ export default function Home({allPostsData}) {
                 ))}
               </ul>
             </section>
-
-          </div>
-          
+            
+          </div>    
         </Layout>
 
       </>

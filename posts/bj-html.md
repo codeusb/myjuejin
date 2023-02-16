@@ -1,7 +1,7 @@
 ---
 title: '前端与 HTML | 青训营笔记'
 date: '2023-02-01'
-author: 'sexxion1'
+author: 'Sexxion1'
 ---
 
 # 一、什么是前端
