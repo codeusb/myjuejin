@@ -50,13 +50,12 @@ export default function Home({allPostsData}) {
   );
 }
 
-//获取文章数据（标题，作者，日期等）
+//服务端渲染：获取文章数据（标题，作者，日期等）
 export async function getServerSideProps() {
   const allPostsData = getSortedPostsData()
   // console.log(allPostsData);
   return {
     props: {
-      // props for your component
       allPostsData
     }
   }
