@@ -7,9 +7,8 @@ export default function Themetoggle() {
     toggleStore = 'themeToggle',               
     [theme, setTheme] = React.useState(null);  
 
-  //改变body的主题样式。
   React.useEffect(() => {  
-    //传入空值
+
     if (!theme) {
       setTheme(
         localStorage.getItem(toggleStore) ||

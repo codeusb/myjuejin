@@ -17,7 +17,7 @@ export default function Home({allPostsData}) {
         <Layout home>
           <Navx></Navx>  
           <div className={utilStyles.mainbox}>
-            <SideLeft></SideLeft>
+            
             <nav className={utilStyles.navBox2}>
               <ul className={utilStyles.navBox2Ul}>
                 <li className={`${utilStyles.navItem2} ${utilStyles.navItem21}`}>推荐</li>
@@ -42,18 +42,16 @@ export default function Home({allPostsData}) {
                 ))}
               </ul>
             </section>
-            
+            <SideLeft></SideLeft>
           </div>    
         </Layout>
-
       </>
   );
 }
 
-//服务端渲染：获取文章数据（标题，作者，日期等）
+//服务端渲染
 export async function getServerSideProps() {
   const allPostsData = getSortedPostsData()
-  // console.log(allPostsData);
   return {
     props: {
       allPostsData

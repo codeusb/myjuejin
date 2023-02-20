@@ -9,11 +9,11 @@
     width: 676px;
     // border: 1px solid green;
     background-color: var(--background-color);
-    .list {  //首页文章列表
+    .list { 
       list-style: none;
       padding: 0;
       margin: 0;
-      .listItem {  //首页文章列表子项
+      .listItem { 
         margin-top: 1.2rem;
         padding: 12px 20px 15px 20px;
         /* background-color: aqua; */
@@ -50,7 +50,7 @@
   }
 }
 
-.navBox2{//首页内容上部的三级导航栏
+.navBox2{//三级导航栏
   width: 676px;
   height: 2.7rem;
   background-color: var(--background-color);
